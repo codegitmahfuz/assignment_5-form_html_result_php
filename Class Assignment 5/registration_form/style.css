@@ -1,0 +1,104 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding:0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* height: 80vh; */
+    background: linear-gradient(135deg, #6A5ACD, #87CEFA);
+    padding-top: 20px;
+}
+
+.form-container{
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 8px 5px 3px rgb(0, 0, 0, 0.1);
+    width: 650px;
+    height: 480px;
+}
+.registration-form {
+    display:flex ;
+    flex-direction: column;
+}
+h2{
+    text-align: center;
+    margin-bottom: 20px;
+}
+.form-row{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    padding: 18px;
+}
+.form-group{
+    display: flex;
+    align-items: center;
+    width: 48%;
+}
+.form-group label{
+    width: 140px;
+    font-weight: bold;
+    
+}
+.form-group input{
+    padding: 8px;
+}
+.group-gender{
+    margin-left: 20px;
+}
+.gender-options{
+    padding: 10px;
+  display: flex;
+  margin-left: 10px;
+
+}
+.gender-options input {
+    text-align: center;
+    margin-left: 5px;
+    
+    
+   
+   
+}
+.gender-options label{
+    text-align: center;
+
+    
+     
+}
+
+.form-actions{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+.cancel-btn,
+.submit-btn {
+    padding: 10px 20px;
+    margin: 5px;
+    border: none;
+    border-radius: 8px;
+    
+}
+.cancel-btn {
+    background-color: #FF6347;
+    color: white;
+}
+
+.submit-btn {
+    background-color: #6A5ACD;
+    color: white;
+}
+
+.cancel-btn:hover {
+    background-color: #e60000;
+}
+
+.submit-btn:hover {
+    background-color: #483D8B;
+}
